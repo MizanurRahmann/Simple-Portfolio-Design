@@ -1,0 +1,247 @@
+@import url(./variables.css);
+@import url(./global.css);
+
+/* ********************** HEADER SECTION ********************** */
+.header_area .main_part .navbar .navbar-brand{
+    padding: 0 2rem 0 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: 2rem;
+    color: var(--primary-color) !important;
+}
+.header_area .main_part .navbar{
+    padding: 1rem 10rem;
+}
+.header_area .main_part .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.2rem;
+    color: var(--title-color);
+}
+.header_area .main_part .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* ********************** END OF HEADER SECTION ********************** */
+
+/* ********************** BANNER SECTION ********************** */
+.main_site .banner_site{
+    height: 100vh;
+}
+.main_site .banner_site .banner_title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+.main_site .banner_site .banner_title h1{
+    font-size: 4rem;
+}
+.main_site .banner_site .banner_title h4{
+    font-size: 1.5rem;
+}
+.main_site .banner_site .banner_image > img{
+    padding: 7rem 0;
+    width: 100%;
+    /* transform: rotateY(180deg); */
+}
+/* ********************** END OF BANNER SECTION ********************** */
+
+/* ********************** INTRODUCE SECTION ********************** */
+.main_site .introduce_site{
+    padding: 8rem 5rem;
+}
+.main_site .introduce_site .introducing_title h2 > span{
+    display: block;
+    font: normal bold 45px/60px var(--roboto);
+}
+.main_site .introduce_site .introducing_title .parragraph > p{
+    padding: .4rem 0;
+}
+/* ********************** END OF INTRODUCE SECTION ********************** */
+
+/* ********************** BRAND SECTION ********************** */
+.main_site .brand_site{
+    padding: 1rem 15rem;
+    margin-bottom: 4rem;
+}
+.main_site .brand_site .first_row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.main_site .brand_site .first_row .col-lg-4 .single-brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+.main_site .brand_site .first_row .col-lg-4 .single-brand > img{
+    width: 50%;
+}
+.main_site .brand_site .first_row .col-lg-4 .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+.main_site .brand_site .first_row .col-lg-4 .single-brand:hover > img{
+    filter: brightness(0.15);
+}
+.main_site .brand_site .experience_area{
+    padding-left: 1rem;
+}
+.main_site .brand_site .experience_area span{
+    display: block;
+}
+.main_site .brand_site .experience_area .years-area{
+    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+.main_site .brand_site .experience_area .bg-panel{
+    position: absolute;
+    left: -190px; top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+.main_site .brand_site .experience_area .years-area .years{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+.main_site .brand_site .experience_area .years-area h2 > span{
+    font: normal 600 22px/30px var(--roboto);
+}
+.main_site .brand_site .experience_area .call_area{
+    padding-left: 8rem;
+}
+/* ********************** END OF BRAND SECTION ********************** */
+
+/* ********************** SERVICES SECTION ********************** */
+.main_site .services_site{
+    padding: 7rem 2rem;
+}
+.main_site .services_site .services-title{
+    padding: 0 14rem;
+}
+.main_site .services_site .services-title h1{
+    font-size: 35px;
+}
+.main_site > .services_site .services{
+    background: rgba(248,252,253,0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+.main_site > .services_site .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* ********************** RECENT PROJECT SECTION ********************** */
+.main_site .project_site{
+    padding: 4rem 0;
+}
+.main_site .project_site .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+.main_site .project_site button + button{
+    padding-left: 3rem;
+}
+.main_site .project_site .grid .our-project > title h4{
+    font: normal 700 25px/10px var(--roboto);
+}
+.main_site .project_site .grid .our-projectv .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/* ********************** END OF RECENT PROJECT SECTION ********************** */
+
+
+/* ********************** ABOUT SECTION ********************** */
+.main_site .about_site .about-title p{
+    padding: 1rem 7rem;
+}
+.main_site .about_site .client{
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+.main_site .about_site .client .client-img{
+    padding: 2rem;
+}
+.main_site .about_site .client .about-client{
+    padding-top: 2rem;
+}
+.main_site .about_site .client .about-client h4{
+    font: normal 500 21px/20px var(--roboto)
+}
+.main_site .about_site .client .about-client p{
+    font-size: 14px;
+}
+.main_site .about_site .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0px 1.5rem;
+}
+.main_site .about_site .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color2);
+    width: 12px;
+    height: 12px;
+}
+/* ********************** END OF ABOUT SECTION ********************** */
+
+/* ********************** SUBSCRIPTION SECTION ********************** */
+.main_site .subscribtion_site .subscribe{
+    background: url('../img/subscribe-bg.png') no-repeat;
+    padding: 10rem 0;
+    margin: 2rem auto;
+}
+.main_site .subscribtion_site .subscribe .subscribe-title h4{
+    font: normal 700 30px/30px var(--roboto);
+    color: whitesmoke
+}
+.main_site .subscribtion_site .subscribe .subscribe-title p{
+    color: #fff;
+    padding: 1rem 4rem;
+}
+.main_site .subscribtion_site .subscribe form .input-textbox input{
+    width: 400px;
+    padding: 1rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+.main_site .subscribtion_site .subscribe form .btn-submit button{
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+}
+/* ********************** END OF SUBSCRIPTION SECTION ********************** */
+
+/* ********************** FOOTER SECTION ********************** */
+footer.footer_site{
+    padding: 5rem 0;
+    background: url('../img/footer-bg.png');
+}
+footer.footer_site .social h5{
+    font: normal 500 23px/30px var(--roboto);
+}
+footer.footer_site .social a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+footer.footer_site .social a:hover > i{
+    color: var(--promary-color2);
+}
+/* ********************** END OF FOOTER SECTION ********************** */

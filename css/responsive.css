@@ -1,0 +1,68 @@
+@media only screen and (max-width: 340px){
+    .header_area .main_part .navbar,
+    .header_area .main_part .navbar .navbar-brand,
+    .main_site .subscribtion_site .subscribe .subscribe-title,
+    .main_site .subscribtion_site .subscribe .subscribe-title p,
+    .main_site .subscribtion_site .subscribe,
+    .main_site .services_site{
+        padding: 2%;
+        margin: 0%;
+    }
+    .main_site .banner_site .banner_title h1{
+        font-size: 41px;
+    }
+    .main_site .subscribtion_site .subscribe form .input-textbox input{
+        width: 15rem;
+    }
+    .main_site > .services_site .services{
+        width: 13rem;
+    }
+    .main_site .about_site .about-title h1{
+        font-size: 35px;
+    }
+    .main_site .about_site .about-title p{
+        padding: 2%;
+    };
+}
+@media only screen and (max-width: 792px){
+    .main_site .introduce_site .introducing_title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+    .main_site .brand_site .experience_area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+    .main_site .brand_site .experience_area .bg-panel{
+        margin-left: 30%;
+        width: 80%;
+    }
+    .main_site .brand_site .experience_area .call-area{
+        padding-left: 3%;
+    }
+    .main_site .project_site .btn-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+    .main_site .introduce_site .introducing_title p{
+        padding: 0%;
+    }
+    .main_site .subscribtion_site .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+}
+
+@media only screen and (max-width: 1910px){
+    .header_area .main_part .navbar{
+        padding: 1rem;
+    }
+    .container{
+        max-width: 90%;
+    }
+    .main_site .brand_site,
+    .main_site .services_site .services-title,
+    .main_site .introduce_site{
+        padding: 3% 4%;
+    }
+
+}
